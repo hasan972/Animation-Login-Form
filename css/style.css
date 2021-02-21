@@ -18,12 +18,25 @@ body{
   align-items: center;
 }
 
-.box{
-  min-height: 70vh;
-  width: 70%;
-  background: black;
-  border-radius: 30px;
-  box-shadow: 5px 5px 6px rgba(0,0,0,.5),
-              -5px -5px 6px rgba(0,0,0,.5);
-  flex-wrap: wrap;
+.box {
+    min-height: 70vh;
+    width: 70%;
+    background: black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 50%), -5px -5px 6px rgb(0 0 0 / 50%);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+h1{
+  font-size:50px;
+  color: #FC00FF;
+  position: relative;
+  margin-left: 1rem;
+}
+.form{
+  min-width: 50%;
+  min-height: 50vh;
+  color: white;
 }
