@@ -37,7 +37,7 @@ h1{
   margin-left: 1rem;
 }
 .form{
-  min-width: 50%;
+  min-width: 60%;
   min-height: 50vh;
   color: white;
 }
@@ -69,24 +69,30 @@ button{
   background: #FC00FF;
   color: white;
 }
-#man{
-  width: 15rem;
-  height: 15rem;
-  position: relative;
-  bottom: -5rem;
-  right: 6rem;
-  z-index: 2;
+#man {
+    margin-top: 84px;
+    margin-left: -40px;
+    width: 8rem;
+    height: 9rem;
+    position: relative;
+    bottom: -5rem;
+    right: 3rem;
+    z-index: 2;
 }
 #you{
-/*  width: 5rem;
-  height: 5rem;
-  position: absolute;
-  top: 3rem;
-  right: 8rem;
-  */
   width: 5rem;
   height: 5rem;
   position: absolute;
   top: 3rem;
   right: 8rem;
+}
+h2 {
+    position: absolute;
+    color: white;
+    right: 3rem;
+    top: 8rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    max-width: 279px;
+    font-size: 34px;
 }
