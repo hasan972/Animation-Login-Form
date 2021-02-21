@@ -40,3 +40,15 @@ h1{
   min-height: 50vh;
   color: white;
 }
+label{
+  font-size: 15px;
+  font-family: Arial;
+  line-height: 2;
+  font-weight: 500;
+  padding-left: 11px;
+}
+input{
+  width: 12rem;
+  outline: none;
+  border: none;
+}
