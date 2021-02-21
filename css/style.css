@@ -27,7 +27,8 @@ body{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    transform-style: preserve-3d;
 }
 h1{
   font-size:50px;
@@ -41,7 +42,7 @@ h1{
   color: white;
 }
 label{
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial;
   line-height: 2;
   font-weight: 500;
@@ -51,4 +52,41 @@ input{
   width: 12rem;
   outline: none;
   border: none;
+  color: white;
+  background: transparent;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+button{
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 80px;
+  border-radius: 30px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  background: #FC00FF;
+  color: white;
+}
+#man{
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  bottom: -5rem;
+  right: 6rem;
+  z-index: 2;
+}
+#you{
+/*  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 3rem;
+  right: 8rem;
+  */
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 3rem;
+  right: 8rem;
 }
