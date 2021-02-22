@@ -10,6 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  perspective: 1000px;
 }
 .container{
   width: 70%;
